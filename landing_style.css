@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    color: rgb(236, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-color: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #2ca9e8;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border radius: 5px;
+}
+
+
+/* Features */
+.features {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: 181818;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box {
+    background-color: #e0e0e0;
+    padding: 25px;
+    margin: 10px;
+    width: 220px;
+}
+
+/* Pricing */
+.pricing {
+    padding: 60px 20px;
+    text-align: center;
+    background-color:#f4f4f4 ;
+}
+
+.price-box {
+    background: color #0e73e7;;
+    padding: 40px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+/* Contact */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.product-image {
+    width: 320px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgba(0,170,255,0.5);
+}
